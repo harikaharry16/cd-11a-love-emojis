@@ -1,0 +1,79 @@
+/* Write your CSS code here. */
+.bg-container {
+  background: linear-gradient(to right, #ffeeee, #ffc0bb);
+  padding: 50px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.inner-container {
+  background-color: white;
+  border-radius: 15px;
+  padding: 40px;
+  height: 350px;
+  width: 650px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.inner-container2 {
+  background-color: white;
+  border-radius: 15px;
+  padding: 40px;
+  height: 350px;
+  width: 650px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.head {
+  color: black;
+  font-size: 30px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.emoji-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.single-emoji {
+  display: flex;
+  flex-direction: column;
+}
+.emoji {
+  height: 45px;
+  width: 45px;
+}
+.name {
+  color: black;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+.tr {
+  display: flex;
+  flex-direction: column;
+}
+.fa {
+  display: none;
+}
+.love-img {
+  height: 35px;
+  width: 35px;
+  align-self: center;
+}
+.love-title {
+  font-size: 19px;
+  font-family: 'Roboto';
+  align-self: center;
+}
+.love-para {
+  font-size: 16px;
+  font-family: 'Roboto';
+  align-self: center;
+}
